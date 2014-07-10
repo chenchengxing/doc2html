@@ -8,10 +8,10 @@ doc2html
 - 这个工程可用，但可能会由于.docx格式不尽完善，一般需要进行微调才能达到最佳的效果。
 
 ## Usage
-- 安装[node](nodejs.org)
+- 安装[node](http://nodejs.org/)
 - npm install doc2html
 - 配置config.js
-- node index.js 或 运行 doc2html.bat
+- node index.js 或 运行 run.bat
 
 ### 配置config.js
 - `docPath`  源文档的相对路径
