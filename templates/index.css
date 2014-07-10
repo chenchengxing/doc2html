@@ -1,0 +1,77 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "微软雅黑";
+  padding-top: 50px;
+  color: #666;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 55px;
+  width: 100%;
+  background: #fff;
+  opacity: .9;
+  filter: alpha(opacity=90);
+}
+.scroll .header {
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 4px #eee;
+}
+.header .logo {
+  position: fixed;
+  top: 14px;
+  left: 20px;
+  color: #000;
+  font-size: 20px;
+}
+.header-ps {
+  float: right;
+  margin-right: 20px;
+  display: none;
+  margin-top: 20px;
+  color: #999;
+}
+.scroll .header-ps {
+  display: block;
+}
+.content {
+  width: 900px;
+  margin-left: 80px;
+  margin-bottom: 500px;
+}
+h1 {
+  background: url(../images/hr.png) top center no-repeat;
+  margin-top: 40px;
+  padding-top: 100px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  color: #353535;
+}
+p.ps {
+  padding-left: 26px;
+  color: #a94442;
+}
+#menu {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  top: 105px;
+  right: 30px;
+  height: 500px;
+  text-align: right;
+  font-size: 13px;
+}
+#menu li {
+  list-style: none;
+}
+#menu a.active {
+  color: #259dff;
+}
+#menu a {
+  color: #7B838A;
+}
+a {
+  text-decoration: none;
+}
