@@ -10,6 +10,8 @@ doc2html
 ## Usage
 - 安装[node](http://nodejs.org/)
 - npm install doc2html
+- cd doc2html
+- npm install
 - 配置config.js
 - node index.js 或 运行 run.bat
 
